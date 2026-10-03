@@ -125,13 +125,6 @@ npm run build && npm run check
   будут английскими до пересборки. `peerDependencies` на пакеты DSH намеренно
   не объявлены, чтобы установка не блокировалась проверкой совместимости.
 
-## Лицензия и благодарности
-
-MIT. Исходные английские и китайские строки — из
-[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
-(MIT, © 2026 DeepSeek); см. [NOTICE](NOTICE). Это независимая общественная
-локализация, не связанная с DeepSeek.
-
 ---
 
 <details>
@@ -153,9 +146,5 @@ and disabling the bundle removes the language and every dictionary again.
 `npm run build` regenerates `lib/client.js` from `source/en.json` + `source/ru.json`;
 `npm run check` validates completeness, ICU placeholders, bundle freshness and the
 runtime registrations without any dependencies (Node ≥ 22).
-
-Licensed under MIT. Source strings come from DeepSeek Harness (MIT, © 2026
-DeepSeek) — see [NOTICE](NOTICE). Independent community localization, not
-affiliated with DeepSeek.
 
 </details>
