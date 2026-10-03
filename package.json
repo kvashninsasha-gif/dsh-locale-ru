@@ -1,0 +1,64 @@
+{
+  "name": "dsh-locale-ru",
+  "version": "1.0.0",
+  "description": "Russian (Русский) UI for DeepSeek Harness: 2615 translated interface strings across 58 namespaces — a DSH client plugin adding Русский next to 中文 and English.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "build": "node tools/build-client.mjs",
+    "check": "node tools/check.mjs",
+    "prepack": "node tools/check.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "i18n",
+    "locale",
+    "localization",
+    "russian",
+    "русский",
+    "локализация",
+    "ru"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvashninsasha-gif/dsh-locale-ru.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

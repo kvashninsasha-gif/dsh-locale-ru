@@ -1,0 +1,6 @@
+# dsh-locale-ru — mounts the Russian language pack into every profile that
+# selects this bundle. The row is added and removed with the bundle itself, so
+# switching the bundle off in the Plugins page unmounts the whole pack.
+- insert:
+    - id: locale-ru
+      name: dsh-locale-ru

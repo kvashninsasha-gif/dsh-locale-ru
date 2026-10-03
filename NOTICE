@@ -1,0 +1,10 @@
+dsh-locale-ru
+Russian localization for DeepSeek Harness.
+
+The English and Chinese source strings this pack translates are taken from the
+DeepSeek Harness packages (@deepseek-ai/dsh-client-*) version 0.2.0-rc.2,
+Copyright (c) 2026 DeepSeek, licensed under the MIT License.
+Original work: https://github.com/deepseek-ai/deepseek-harness
+
+This package is an independent community localization and is not affiliated
+with or endorsed by DeepSeek.
